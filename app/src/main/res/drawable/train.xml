@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@mipmap/train_1" android:duration="100"/>
+    <item android:drawable="@mipmap/train_2" android:duration="100"/>
+    <item android:drawable="@mipmap/train_3" android:duration="100"/>
+    <item android:drawable="@mipmap/train_4" android:duration="100"/>
+    <item android:drawable="@mipmap/train_5" android:duration="100"/>
+    <item android:drawable="@mipmap/train_6" android:duration="100"/>
+    <item android:drawable="@mipmap/train_7" android:duration="100"/>
+    <item android:drawable="@mipmap/train_8" android:duration="100"/>
+    <item android:drawable="@mipmap/train_9" android:duration="100"/>
+    <item android:drawable="@mipmap/train_10" android:duration="100"/>
+    <item android:drawable="@mipmap/train_11" android:duration="100"/>
+    <item android:drawable="@mipmap/train_12" android:duration="100"/>
+    <item android:drawable="@mipmap/train_13" android:duration="100"/>
+    <item android:drawable="@mipmap/train_14" android:duration="100"/>
+    <item android:drawable="@mipmap/train_15" android:duration="100"/>
+    <item android:drawable="@mipmap/train_16" android:duration="100"/>
+    <item android:drawable="@mipmap/train_17" android:duration="100"/>
+    <item android:drawable="@mipmap/train_18" android:duration="100"/>
+    <item android:drawable="@mipmap/train_19" android:duration="100"/>
+    <item android:drawable="@mipmap/train_20" android:duration="100"/>
+    <item android:drawable="@mipmap/train_21" android:duration="100"/>
+
+</animation-list>

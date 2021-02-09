@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFAF3</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="chat_background">#9999CC</color>
+    <color name="progress_background">#00CCFF</color>
+</resources>

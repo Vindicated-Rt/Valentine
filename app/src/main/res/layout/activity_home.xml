@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:ignore="UnusedAttribute,ContentDescription"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/valentine"
+        app:layout_constraintBottom_toTopOf="@+id/cover_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cover_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cover"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chapter_tv" />
+
+    <TextView
+        android:id="@+id/start_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/text_background"
+        android:gravity="center_horizontal"
+        android:onClick="startGame"
+        android:text="@string/Encounters"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="32dp" />
+
+    <TextView
+        android:id="@+id/chapter_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/text_background"
+        android:gravity="center_horizontal"
+        android:onClick="openChapter"
+        android:text="@string/chapter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:transitionName="chapterShare"
+        app:layout_constraintBottom_toTopOf="@+id/start_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/text_background"
+        android:gravity="center_horizontal"
+        android:onClick="aboutUs"
+        android:text="@string/about"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:transitionName="aboutShare"
+        app:layout_constraintBottom_toTopOf="@+id/chapter_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
